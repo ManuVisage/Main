@@ -1,0 +1,164 @@
+/* General Container */
+.question-paper-container {
+  min-height: 100vh;
+  padding: 20px;
+  background: linear-gradient(to bottom right, #458ed2 0%, #f0f8ff 60%, #fce6e9 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  gap: 30px;
+  position: relative;
+}
+
+/* Timer - Fixed Top Left */
+.timer {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: #ffffffcc;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  z-index: 999;
+}
+
+/* Webcam - Fixed Top Right */
+.webcam-wrapper {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 300px;
+  height: 225px;
+  border: 2px solid #888;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #000;
+  z-index: 999;
+}
+
+.webcam-wrapper video,
+.webcam-wrapper canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Question Box */
+.question-box {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  max-width: 800px;
+  width: 100%;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.question-text {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Option Buttons */
+.option-button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: white;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-size: 16px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.option-button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Question Navigation Buttons */
+.question-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  max-width: 800px;
+  width: 100%;
+}
+
+.question-nav-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  font-weight: 600;
+  background-color: #84aadf;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.question-nav-btn[aria-current="true"] {
+  background-color: #414141;
+}
+
+/* Submit Button - Always Clickable */
+.submit-btn {
+  margin-top: 20px;
+}
+
+.submit-btn button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  background: linear-gradient(217deg, rgba(80, 249, 150, 1) 0%, rgba(3, 228, 253, 1) 100%);
+  color: black;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.submit-btn button:hover {
+  transform: scale(1.03);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .question-box {
+    padding: 16px;
+  }
+
+  .question-text {
+    font-size: 20px;
+  }
+
+  .option-button {
+    font-size: 14px;
+    padding: 10px 16px;
+  }
+
+  .question-nav-btn {
+    width: 36px;
+    height: 36px;
+  }
+
+  .submit-btn button {
+    font-size: 16px;
+  }
+
+  .webcam-wrapper {
+    width: 220px;
+    height: 165px;
+  }
+
+  .timer {
+    font-size: 16px;
+  }
+}

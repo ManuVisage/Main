@@ -1,0 +1,334 @@
+.glass-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background: radial-gradient(circle at center, #7db6eb 0%, #f0f8ff 60%, #fce6e9 100%);
+  /* background-image: linear-gradient(135deg, #8000ff, #3a80f7, #00faff); */
+  
+}
+ 
+.glass-glass {
+  gap: 10px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(255, 255, 255, 0.30000001192092896);
+  border-style: solid;
+  border-width: 0.9009259343147278px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.009999999776482582);
+}
+ 
+.glass-background {
+  width: 1440px;
+  height: 900.000732421875px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+  
+  /* background-clip: text;
+  color: transparent; */
+}
+ 
+.glass-blob1 {
+  top: 644.9055786132812px;
+  left: 1001.7197265625px;
+  width: 438px;
+  height: 255px;
+  position: absolute;
+}
+ 
+.glass-blob3 {
+  /* top: 0px;
+  left: 0px;
+  width: 1011px;
+  height: 586px;
+  position: absolute; */
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  backdrop-filter: blur(100px);
+  background-color: rgba(255, 255, 255, 0.01);
+}
+ 
+.glass-codepage {
+  top: 150px;
+  left: 143px;
+  width: 1154px;
+  height: 400px;
+  display: flex;
+  z-index: 1;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.glass-pexelslizasummer63479121 {
+  top: 0px;
+  left: 0px;
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  border-radius: 32px 0 0 32px;
+}
+ 
+.glass-start-exam-nowbutton {
+  top: 287px;
+  left: 668px;
+  width: 380px;
+  height: 94px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.glass-rectangle72 {
+  top: 0px;
+  left: 180px;
+  width: 180px;
+  height: 44px;
+  position: absolute;
+  border-radius: 105px;
+}
+ 
+.glass-startexam {
+  top: 3px;
+  left: 15px;
+  width: 347px;
+  height: 78.400001525878906px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.glass-text1 {
+  top: 11px;
+  color: rgba(255, 255, 255, 1);
+  width: 147px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.glass-vector {
+  top: 0px;
+  left: 107.070556640625px;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+}
+ 
+.glass-examcodebutton1 {
+  top: 175.9996337890625px;
+  left: 687px;
+  width: 210px;
+  height: 58px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.glass-rectangle741 {
+  top: 26px;
+  left: 1px;
+  width: 209px;
+  height: 32px;
+  position: absolute;
+  border-color: rgba(149, 149, 149, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+}
+ 
+.glass-text2 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 124.00000095367432%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.glass-examcodebutton2 {
+  top: 102px;
+  left: 686px;
+  width: 210px;
+  height: 58px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.glass-rectangle742 {
+  top: 26px;
+  left: 1px;
+  width: 209px;
+  height: 32px;
+  position: absolute;
+  border-color: rgba(149, 149, 149, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+}
+ 
+.glass-text3 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 124.00000095367432%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+
+.exam-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: white;
+}
+
+.exam-form {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 320px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.start-button {
+  width: 100%;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #2f55ff, #00f0ff);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: opacity 0.3s ease;
+}
+
+.start-button:hover {
+  opacity: 0.9;
+}
+
+.start-button .arrow {
+  background: white;
+  color: #00bcd4;
+  border-radius: 50%;
+  padding: 6px 8px;
+  font-size: 16px;
+}
+
+.input-password{
+  margin-top: 20px;
+  border-radius: 8px;
+  border: 2px solid #dddfe2;
+}
+
+.input-exam-code{
+  margin-top: 20px;
+  border-radius: 8px;
+  border: 2px solid #dddfe2;
+}
+
+.gradient-button {
+  width: 210px;
+  height: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 28px 12px 20px;
+  background: linear-gradient(to right, #2f55ff, #00f0ff);
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  gap: 16px;
+  white-space: nowrap; /* Prevents "Start Exam" from wrapping */
+  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+  box-shadow: 0 6px 12px rgba(0, 136, 255, 0.2);
+}
+
+.gradient-button:hover {
+  transform: translateY(4px) scale(1.02);
+  box-shadow: 0 12px 20px rgba(0, 136, 255, 0.35);
+  filter: brightness(1.1);
+}
+
+.button-text {
+  white-space: nowrap; /* Ensures text stays on one line */
+}
+
+.button-icon {
+  background: white;
+  color: #00bcd4;
+  font-size: 16px;
+  border-radius: 50%;
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

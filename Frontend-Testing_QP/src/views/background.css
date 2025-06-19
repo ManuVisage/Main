@@ -1,0 +1,104 @@
+.background-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.background-background1 {
+  gap: 10px;
+  width: 100%;
+  height: 900px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(255, 255, 255, 0.30000001192092896);
+  border-style: solid;
+  border-width: 0.9009259343147278px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.009999999776482582);
+}
+ 
+.background-rectangle77 {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 900px;
+  position: absolute;
+}
+ 
+.background-background2 {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 900px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.background-blob1 {
+  top: 644.9052124023438px;
+  left: 1001.7197265625px;
+  width: 438px;
+  height: 255px;
+  position: absolute;
+}
+ 
+.background-blob3 {
+  top: 0px;
+  left: 0px;
+  width: 1011px;
+  height: 586px;
+  position: absolute;
+}
+ 
+.background-cameraoutput {
+  top: 115px;
+  left: 385px;
+  width: 640px;
+  height: 480px;
+  position: absolute;
+  border-radius: 32px;
+}
+ 
+.background-captureimagebutton {
+  top: 645px;
+  left: 822px;
+  width: 180px;
+  height: 44px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.background-rectangle76 {
+  top: 0px;
+  left: 0px;
+  width: 180px;
+  height: 44px;
+  position: absolute;
+  border-radius: 50px;
+}
+ 
+.background-text {
+  top: 15px;
+  left: 42px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
