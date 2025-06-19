@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect, useCallback } from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-import * as faceapi from "face-api.js";
+import * as faceapi from 'face-api.js/dist/face-api.min.js';
 import "./question-paper.css";
 
 const questions = [
